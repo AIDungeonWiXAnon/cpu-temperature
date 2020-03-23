@@ -1,0 +1,5 @@
+{cputemp} degrees {unit}.
+The cpu is {cputemp} degrees {unit}.
+The processor is {cputemp} degrees {unit}.
+Cpu temperature is {cputemp} degrees {unit}.
+Processor temperature is {cputemp} degrees {unit}.

@@ -1,0 +1,9 @@
+skillMetadata:
+   sections:
+      - name: Select Temperature Unit
+        fields:
+          - name: degree_unit
+            type: select
+            label: Temperature unit
+            options: Celsius|c;Fahrenheit|f
+            value: 'c'

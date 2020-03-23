@@ -1,0 +1,5 @@
+{
+    "intent_type": "temperature.cpu.intent",
+    "utterance": "what is cpu temperature",
+    "expected_dialog": "temperature.cpu"
+}
