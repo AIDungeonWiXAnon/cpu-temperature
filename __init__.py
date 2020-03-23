@@ -7,8 +7,8 @@ class CpuTemperature(MycroftSkill):
     The temperature value is obtained from thermal_zone0 temp file at
     /sys/class/thermal/thermal_zone0/temp
 
-    The user can set the temperature unit to Celsius or Fahrenheit using the skill
-    configuration page.
+    The user can set the temperature unit to Celsius or Fahrenheit on the
+    user's Mycroft account skill configuration page.
     """
     
     def __init__(self):
