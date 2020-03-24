@@ -29,8 +29,8 @@ class CpuTemperature(MycroftSkill):
             self.log.error("File not found error.")
             self.speak("Error. I could not find the temperature file.")
         else:
-            # Retrieve the temperature unit that was set by user from settings.json file.
-            unit_setting = self.settings.get('degree_unit')
+            # Retrieve the temperature unit that was set by user from settings.json file. Default is Celsius.
+            unit_setting = self.settings.get('degree_unit', 'c')
 
             if unit_setting == 'c':
                 # Format and speak temperature in celsius.
