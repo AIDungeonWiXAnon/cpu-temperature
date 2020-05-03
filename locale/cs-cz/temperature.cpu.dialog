@@ -1,0 +1,5 @@
+{cputemp} stupňů {unit}.
+CPU má {cputemp} stupňů {unit}.
+Procesor má {cputemp} stupňů {unit}.
+Teplota CPU je {cputemp} stupňů {unit}.
+Teplota procesoru je {cputemp} stupňů {unit}.
