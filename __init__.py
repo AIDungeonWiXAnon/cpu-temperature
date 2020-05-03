@@ -1,4 +1,4 @@
-from mycroft import MycroftSkill, intent_file_handler
+from mycroft import MycroftSkill, intent_handler
 
 
 class CpuTemperature(MycroftSkill):
@@ -15,7 +15,7 @@ class CpuTemperature(MycroftSkill):
         MycroftSkill.__init__(self)
         
 
-    @intent_file_handler('temperature.cpu.intent')
+    @intent_handler('temperature.cpu.intent')
     def handle_temperature_cpu(self, message):
         """Open and read temp file.
 
