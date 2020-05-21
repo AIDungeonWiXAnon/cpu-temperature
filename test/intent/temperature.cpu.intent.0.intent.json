@@ -1,5 +1,5 @@
 {
-    "intent_type": "temperature.cpu.intent",
-    "utterance": "thermals",
-    "expected_dialog": "temperature.cpu"
+  "intent_type": "temperature.cpu.intent",
+  "utterance": "thermals",
+  "expected_dialog": "temperature.cpu"
 }

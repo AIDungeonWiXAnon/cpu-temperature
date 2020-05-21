@@ -46,4 +46,3 @@ class CpuTemperature(MycroftSkill):
 
 def create_skill():
     return CpuTemperature()
-
